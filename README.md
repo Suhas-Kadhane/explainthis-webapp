@@ -19,6 +19,19 @@ This project will later evolve into an AI-powered simplification tool.
 
 ---
 
+## 🧭 Project Context
+
+ExplainThis is being built incrementally with a focus on:
+- Clean architecture
+- Quality UI
+- Scalable structure
+- Future AI integration
+
+Current Version: v1 – Basic DOM manipulation with simulated simplification.
+Next Milestone: Refactor JS structure and prepare for API integration.
+
+---
+
 ## 🛠️ Tech Stack
 
 - HTML5
