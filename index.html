@@ -30,7 +30,11 @@
             }
 
             // Fake simplication logic
-            let simplified = inputText.split(".")[0]; // Take this first sentence only
+            let simplified = inputText.split(".")[0].trim(); // Take this first sentence only
+
+            if (!simplified.endsWith(".")) {
+                simplified += "."
+            }
 
             outputDiv.innerHTML = `
                 <strong>Simplified Version:</strong><br><br>
@@ -41,3 +45,4 @@
     </script>
 </body>
 </html>
+
