@@ -21,7 +21,7 @@ h1{
 }
 
 textarea{
-    width: 100;
+    width: 100%;
     padding: 10px;
     border-radius: 6px;
     border: 1px solid #ccc;
@@ -35,8 +35,13 @@ button{
     background-color: #4CAF50;
     color: white;
     cursor: pointer;
+    margin-top: 15px;
 }
 
 button:hover{
     background-color: #45a049;
+}
+
+output {
+    margin-top: 20px;
 }
