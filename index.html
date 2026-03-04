@@ -1,48 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>ExplainThis</title>
     <link rel="stylesheet" href="style.css">
   </head>
-
 <body>
-
     <div class="container">
         <h1>ExplainThis</h1>
         <p>Simplify complex learning content instantly.</p>
 
-        <textarea placeholder="Paste your content here..." rows="10" cols="60"></textarea>
-        <br><br>
+        <textarea id="inputText" placeholder="Paste your content here..." rows="10"></textarea>
 
-        <button onclick="simplifyText()">Simplify</button>
+        <button id="simplifyBtn">Simplify</button>
 
-        <div id="output" style="margin-top:20px;"></div>
+        <div id="output"></div>
     </div>
-
-    <script>
-        function simplifyText() {
-            const inputText = document.querySelector("textarea").value;
-            const outputDiv = document.getElementById("output");
-
-            if (inputText.trim() === "") {
-                outputDiv.innerHTML = "Please enter some text first.";
-                return;
-            }
-
-            // Fake simplication logic
-            let simplified = inputText.split(".")[0].trim(); // Take this first sentence only
-
-            if (!simplified.endsWith(".")) {
-                simplified += "."
-            }
-
-            outputDiv.innerHTML = `
-                <strong>Simplified Version:</strong><br><br>
-                👉 In simple terms: <br><br>
-                ${simplified}
-            `;
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
-
