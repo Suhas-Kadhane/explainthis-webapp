@@ -10,10 +10,12 @@ body{
 
 .container{
     background: white;
-    padding: 30px;
+    padding: 40px;
     border-radius: 10px;
-    width: 600px;
+    width: 90%;
+    max-width: 700px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
 h1{
@@ -26,6 +28,8 @@ textarea{
     border-radius: 6px;
     border: 1px solid #ccc;
     resize: none;
+    box-sizing: border-box;
+    display: block;
 }
 
 button{
@@ -36,6 +40,8 @@ button{
     color: white;
     cursor: pointer;
     margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
 }
 
 button:hover{
@@ -43,5 +49,10 @@ button:hover{
 }
 
 output {
-    margin-top: 20px;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #4CAF50;
+    border-radius: 6px;
+    line-height: 1.6;
 }
