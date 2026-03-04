@@ -5,7 +5,7 @@ It is built using HTML, CSS, and JavaScript as part of a foundational front-end 
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 ExplainThis allows users to:
 
@@ -19,7 +19,7 @@ This project will later evolve into an AI-powered simplification tool.
 
 ---
 
-## 🧭 Project Context
+## Project Context
 
 ExplainThis is being built incrementally with a focus on:
 - Clean architecture
@@ -32,7 +32,7 @@ Next Milestone: Refactor JS structure and prepare for API integration.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - HTML5
 - CSS3
@@ -42,7 +42,7 @@ No frameworks used. No external libraries.
 
 ---
 
-## 🎯 Features (Current Version)
+## Features (Current Version)
 
 - Clean centered card layout
 - Responsive textarea input
@@ -53,7 +53,7 @@ No frameworks used. No external libraries.
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 - How HTML structure connects to CSS
 - How to link external stylesheets
@@ -65,7 +65,7 @@ No frameworks used. No external libraries.
 
 ---
 
-## 🔮 Roadmap
+## Roadmap
 
 Upcoming improvements:
 
@@ -77,7 +77,7 @@ Upcoming improvements:
 
 ---
 
-## 💡 Why This Project Matters
+## Why This Project Matters
 
 This project represents the foundation of building interactive web applications.
 
