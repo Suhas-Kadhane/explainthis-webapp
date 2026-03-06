@@ -20,7 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
             simplified += ".";
          }
 
-        outputDiv.innerHTML = `
+         outputDiv.style.display = "block";
+         outputDiv.innerHTML = `
              <strong>Simplified Version:</strong><br><br>
             👉 In simple terms: <br><br>
             ${simplified}

@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "ExplainThis",
+    "version": "1.0",
+    "description": "Simplifies complex Trailhead content instantly.",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "ExplainThis"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+
+}
