@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
         
     function simplifyText() {
-        const inputText = document.querySelector("textarea").value;
+        const inputText = document.getElementById("inputText").value;
         const outputDiv = document.getElementById("output");
 
         if (inputText.trim() === "") {
